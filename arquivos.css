@@ -1,0 +1,48 @@
+body{
+	font-family: Arial;
+	font-style: normal;
+	background-color: #87CEEB;
+}
+header{ 
+	background-color: #00FF7F;
+
+}
+p{
+	font-family: cursive;
+	font-style: italic;
+	color: black;
+}
+footer{ 
+	clear: both;
+	background-color: blueviolet;
+}
+nav{
+	background-color: #00FA9A;
+	height: 37px;
+	width: auto;
+}
+/*DIV*/
+#div_cental{
+   float: none;
+   text-align: center;
+   width: 150px;
+   height: auto;
+}
+#div_direita{ 
+	background-color: #ADFF2F;
+	float: left;
+	text-align: center;
+	min-height: 500px;
+	width: 100px;
+}
+#div_esqueda{
+	background-color: coral;
+	float: right;
+	min-height: 500px;
+	width: 100px;
+}
+/*ID*/
+.container{
+	margin: auto;
+	width: auto;
+}
