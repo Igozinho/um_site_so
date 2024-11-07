@@ -1,10 +1,10 @@
 body{
 	font-family: Arial;
 	font-style: normal;
-	background-color: #87CEEB;
+	background-color: #a5adb1;
 }
 header{ 
-	background-color: #00FF7F;
+	background-color: #002fff;
 
 }
 p{
@@ -17,32 +17,31 @@ footer{
 	background-color: blueviolet;
 }
 nav{
-	background-color: #00FA9A;
+	background-color: #fa3200;
 	height: 37px;
 	width: auto;
 }
 /*DIV*/
 #div_cental{
-   float: none;
    text-align: center;
    width: 150px;
-   height: auto;
+   height:fit-content;
 }
 #div_direita{ 
 	background-color: #ADFF2F;
-	float: left;
 	text-align: center;
 	min-height: 500px;
-	width: 100px;
+	width: 200px;
 }
 #div_esqueda{
 	background-color: coral;
-	float: right;
 	min-height: 500px;
-	width: 100px;
+	width: 200px;
 }
 /*ID*/
 .container{
-	margin: auto;
-	width: auto;
+	display: flex;
+	height: 600px;
+	flex-wrap: wrap;
+	align-content: stretch;
 }
